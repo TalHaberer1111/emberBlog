@@ -3,8 +3,8 @@
   @font-face {
     font-family: $family;
 
-    src: url('#{$path-font}/#{$file}.ttf');
-    src: url('#{$path-font}/#{$file}.ttf') format('truetype');
+    src: url('#{$path-font}/#{$file}.otf');
+    src: url('#{$path-font}/#{$file}.otf') format('truetype');
   }
 }
 
