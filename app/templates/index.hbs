@@ -1,11 +1,16 @@
 <h1> Welcome to the Most Ribbiting Blog in The World</h1>
 
-We hope you find exactly what you're looking for.
+<p>We hope you find exactly what you're looking for.</p>
 
+<div class="blogEntryContainer">
   {{#each model as |blog|}}
     {{blog-tile blog=blog update="update" destroyBlog="destroyBlog"}}
   {{/each}}
+</div>
 
-<div class="addNew">
-  {{new-blog save2="save3"}}
+<div class="addNewContainer">
+  <div class="addNew">
+    <h2>Create a New Blog</h2>
+    <p>{{new-blog save2="save3"}}</p>
+  </div>
 </div>

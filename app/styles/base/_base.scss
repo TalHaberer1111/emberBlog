@@ -9,17 +9,6 @@
 html, body {
   margin: 0;
   padding: 0;
-}
-
-.addNew {
-  border: 1px solid black;
-  width: 17vw;
-  position: absolute;
-  right: 60px;
-  padding: 2%;
-  display: flex;
-  justify-content: center;
-  button {
-    font-size: 1em;
-  }
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-color: #F8F8F8;
 }
