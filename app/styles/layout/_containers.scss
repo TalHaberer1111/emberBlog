@@ -1,0 +1,38 @@
+.overLord {
+  @include outer-container;
+}
+
+.blogEntryContainer {
+
+  .blogEntry {
+    border: 1px solid orange;
+    width: 30vw;
+    height: 45vh;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    img {
+      height: 20vh;
+    }
+  }
+}
+.about {
+  text-align: center;
+  img {
+    height: 25vh;
+  }
+}
+
+.ribbit-wrap {
+  text-align: center;
+  p {
+    font-size: 25px;
+  }
+  img {
+    border-radius: 100%;
+    &:hover {
+      width: 100%;
+
+    }
+  }
+}

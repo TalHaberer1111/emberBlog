@@ -1,0 +1,28 @@
+header {
+  background-image: url("http://s2.quickmeme.com/img/a9/a94d240da45b4483f764d7ebb7c080b93edb786ebfc15fc4b1df43998306b2df.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #BFD77F;
+  height: 45vh;
+  margin: 0;
+h1 {
+  padding-left: 100px;
+}
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  border: 1px inset green;
+  margin: 0;
+  padding: 2%;
+
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      font-size: 2em;
+    }
+  }
+}

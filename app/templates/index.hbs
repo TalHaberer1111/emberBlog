@@ -1,0 +1,11 @@
+<h1> Welcome to the Most Ribbiting Blog in The World</h1>
+
+We hope you find exactly what you're looking for.
+
+  {{#each model as |blog|}}
+    {{blog-tile blog=blog destroyBlog="destroyBlog"}}
+  {{/each}}
+
+<div class="addNew">
+  {{new-blog save2="save3"}}
+</div>

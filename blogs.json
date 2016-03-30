@@ -1,0 +1,20 @@
+{ "blogs": [{
+    "title": "Cat Owls Takeover",
+    "author": "San Francisco",
+    "date": "today",
+    "image": "http://indulgd.com/wp-content/uploads/2014/05/meowls5.jpg",
+    "text": "Cat owls are a thing yo"
+  }, {
+    "title": "Bernie: Bird Whisperer",
+    "author": "James",
+    "date": "today",
+    "image": "https://pbs.twimg.com/media/CebT2EXVAAE7A41.jpg",
+    "text": "I had to do it. @BernieSanders just became the first old, Jewish, male Disney princess. "
+  }, {
+    "title": "Meet the Snuffler",
+    "author": "Francisco",
+    "date": "today",
+    "image": "http://unspokenpictures.com/wp-content/uploads/funny-weird-face-trunk.jpg",
+    "text": "Add the snuffle to your life"
+  }]
+}
